@@ -14,9 +14,9 @@
         
 
 
-        $servername = "localhost";
-        $username = "nutt1101";
-        $password = "123";
+        $servername = "";
+        $username = "";
+        $password = "";
 
         $connect = new DatabaseConnect($servername, $username, $password, "tinyurl");
         try {
