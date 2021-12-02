@@ -1,4 +1,5 @@
 <?php
+    
     class DatabaseConnect {
         private $server_name;
         private $user_name;
@@ -31,8 +32,6 @@
             } catch (PDOException $e) {
                 $this->connect_status = false;
             }
-
-            return $this->connect;
         }
 
         /**
