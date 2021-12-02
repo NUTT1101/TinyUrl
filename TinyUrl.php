@@ -45,4 +45,3 @@
             return $this->tinyurl_exists;
         }
     }
-?>

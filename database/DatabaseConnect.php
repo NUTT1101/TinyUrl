@@ -1,5 +1,4 @@
 <?php
-    
     class DatabaseConnect {
         private $server_name;
         private $user_name;
@@ -57,4 +56,3 @@
             return $this->connect == null;
         }
     }
-?>
